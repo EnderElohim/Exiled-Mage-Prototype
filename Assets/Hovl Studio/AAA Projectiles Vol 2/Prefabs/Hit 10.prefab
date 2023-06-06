@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 198923810971641968}
   - component: {fileID: 199032807084946350}
   m_Layer: 0
-  m_Name: Derbis
+  m_Name: Debris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

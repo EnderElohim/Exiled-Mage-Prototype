@@ -1,4 +1,4 @@
-Asset Creator - Vladislav Horobets (Hovl).
+Asset Creator - Vladyslav Horobets (Hovl).
 All that is in the folder "AAA Projectiles" can be used in commerce, even demo scene files.
 -----------------------------------------------------
 

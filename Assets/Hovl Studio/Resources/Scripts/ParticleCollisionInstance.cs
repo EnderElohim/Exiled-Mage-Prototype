@@ -12,7 +12,7 @@ public class ParticleCollisionInstance : MonoBehaviour
     public Vector3 rotationOffset = new Vector3(0,0,0);
     public bool useOnlyRotationOffset = true;
     public bool UseFirePointRotation;
-    public bool DestoyMainEffect = false;
+    public bool DestoyMainEffect = true;
     private ParticleSystem part;
     private List<ParticleCollisionEvent> collisionEvents = new List<ParticleCollisionEvent>();
     private ParticleSystem ps;
