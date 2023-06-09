@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415d88996c968904e8eb87044ffcba21, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  isDebugOn: 0
+  smoothInputSpeed: 0.2
+  jumpLimit: 1
+  baseSpeed: 10
+  dashWalkingSpeed: 20
+  wallRunSpeedMultiplier: 1.25
+  jumpSpeed: 20
+  maximumFallSpeed: -50
+  maximumStompFallSpeed: -100
+  gravity: 45
+  lookSpeed: 2
+  lookXLimit: {x: 85, y: -65}
+  heightLimit: 1.25
+  wallDetectRange: 2
+  groundDetectRange: 2.5
+  interactionRange: 100
+  airSpeedMultipliar: 1.45
+  interactionLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  respawnSpeed: 1
+  respawnCamShakeDuration: 0.1
+  respawnCamShakePower: 20
+  maxHeight: 2.2
+  minHeight: 1
+  defaultFov: 90
+  flyingAvalible: 0
+  momentumExtraSpeed: 8
+  maxHookRange: 65
+  hookshotSpeedMultiplier: 10
+  hookshotSpeedMin: 40
+  hookshotSpeedMax: 100
+  hookshotStopDistance: 3
+  hookshotCooldown: 0.7
+  hookShotLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  hookShotErrorLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  dashSpeedX: 0
+  dashSlowMultiplierX: 0
+  dashDuration: 1
+  dashCooldown: 1
+  dashFovToInDuration: 0
+  dashFovToOffDuration: 0
+  dashFovDuration: 0
+  dashFov: 100
+  skills:
+  - skill: 0
+    isOn: 1
+  - skill: 1
+    isOn: 1
